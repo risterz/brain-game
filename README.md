@@ -13,102 +13,39 @@ A fully functional, interactive, and engaging brain game website designed to cha
 
 ## 📸 Screenshots
 
-### Dashboard
+### Home Page
+![Home Page](https://github.com/risterz/brain-game/assets/130717663/home-page-screenshot)
+*The engaging home page welcomes users with featured games and benefits of brain training.*
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│ Dashboard                                            Fix Score Data  ▷ Play Games  │
-│ Welcome back, Player!                                              │
-│                                                                     │
-│ ├─ Overview  ├─ Progress  ├─ Achievements                          │
-│                                                                     │
-│ ┌───────────┐ ┌───────────┐ ┌───────────┐ ┌───────────┐            │
-│ │           │ │           │ │           │ │           │            │
-│ │    12     │ │  3,450    │ │    85%    │ │   2h 15m  │            │
-│ │Games Played│ │Total Score │ │Average Acc.│ │Time Trained│            │
-│ └───────────┘ └───────────┘ └───────────┘ └───────────┘            │
-│                                                                     │
-│ ┌─────────────────────────────────────────────────────────────┐    │
-│ │ Level Progress                                   Level 4     │    │
-│ │ 450 / 1000 XP                                      45%       │    │
-│ │ [████████████████████--------------------------]             │    │
-│ └─────────────────────────────────────────────────────────────┘    │
-│                                                                     │
-│ Recent Games                                                        │
-│ ┌─────────────────────────────────────────────────────────────┐    │
-│ │ Game           Date         Score        Level               │    │
-│ │ Pattern Recog. 2025-05-10   820          Medium              │    │
-│ │ Quick Math     2025-05-09   650          Easy                │    │
-│ │ Memory Match   2025-05-07   785          Hard                │    │
-│ │ Reaction Test  2025-05-05   340          Easy                │    │
-│ └─────────────────────────────────────────────────────────────┘    │
-└─────────────────────────────────────────────────────────────────────────┘
-```
-
-### Pattern Recognition Game
-
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│ Pattern Recognition                                 Level: Medium   Score: 240 │
-│                                                                     │
-│ What comes next in this pattern?                                    │
-│                                                                     │
-│ ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                │
-│ │ △ │ │ ○ │ │ △ │ │ △ │ │ ○ │ │ ? │                                │
-│ └───┘ └───┘ └───┘ └───┘ └───┘ └───┘                                │
-│                                                                     │
-│ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐                    │
-│ │    △    │ │    ○    │ │    □    │ │    ✕    │                    │
-│ └─────────┘ └─────────┘ └─────────┘ └─────────┘                    │
-│                                                                     │
-│ Time remaining: 00:15                                               │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+### Games Page
+![Games Page](https://github.com/risterz/brain-game/assets/130717663/games-page-screenshot)
+*Browse our collection of brain-training games designed to target different cognitive skills.*
 
 ### Memory Match Game
+![Memory Match Game](https://github.com/risterz/brain-game/assets/130717663/memory-match-screenshot) 
+*Test and improve your memory by matching pairs of cards with multiple difficulty levels.*
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│ Memory Match                                      Level: Easy    Score: 180 │
-│                                                  Pairs found: 4/8       │
-│ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                               │
-│ │ ? │ │ ? │ │ ? │ │ ? │                                               │
-│ └───┘ └───┘ └───┘ └───┘                                               │
-│                                                                     │
-│ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                               │
-│ │ 🍎 │ │ ? │ │ 🍎 │ │ ? │                                               │
-│ └───┘ └───┘ └───┘ └───┘                                               │
-│                                                                     │
-│ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                               │
-│ │ ? │ │ 🍐 │ │ ? │ │ 🍐 │                                               │
-│ └───┘ └───┘ └───┘ └───┘                                               │
-│                                                                     │
-│ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                               │
-│ │ 🍒 │ │ 🍌 │ │ 🍒 │ │ 🍌 │                                               │
-│ └───┘ └───┘ └───┘ └───┘                                               │
-│                                                                     │
-│ Moves: 12     Time: 01:45                                           │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+### Pattern Recognition Game
+![Pattern Recognition Game](https://github.com/risterz/brain-game/assets/130717663/pattern-recognition-screenshot)
+*Identify patterns and sequences to enhance your logical thinking skills.*
 
-### Quick Math Game
+## 🧩 Game Types
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│ Quick Math                                     Level: Medium   Score: 420 │
-│                                                                     │
-│ Solve the equation:                                                 │
-│                                                                     │
-│                 (36 ÷ 4) × 3 + 15 = ?                              │
-│                                                                     │
-│ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐                    │
-│ │    38   │ │    39   │ │    42   │ │    45   │                    │
-│ └─────────┘ └─────────┘ └─────────┘ └─────────┘                    │
-│                                                                     │
-│ Correct: 14     Wrong: 2                                            │
-│ Time remaining: 00:23                                               │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+1. **Memory Games**
+   - Memory Match: Find matching pairs of cards
+   - Sequence Recall: Remember and reproduce sequences
+
+2. **Logic Games**
+   - Pattern Recognition: Identify and complete patterns
+   - Sudoku: Classic number puzzle
+
+3. **Math Games**
+   - Quick Math: Solve arithmetic problems against time
+   - Number Puzzles: Mathematical challenges
+
+4. **Reaction Games**
+   - Reaction Test: Test your reflexes
+   - Snake Game: Classic snake game with speed challenges
 
 ## 🚀 Live Demo
 
@@ -169,24 +106,6 @@ The application uses Supabase (PostgreSQL) with the following main tables:
 - **users**: User profiles and settings
 - **score_logs**: Game scores and progress tracking
 - **games**: Available games and metadata
-
-## 🧩 Game Types
-
-1. **Memory Games**
-   - Memory Match: Find matching pairs of cards
-   - Sequence Recall: Remember and reproduce sequences
-
-2. **Logic Games**
-   - Pattern Recognition: Identify and complete patterns
-   - Sudoku: Classic number puzzle
-
-3. **Math Games**
-   - Quick Math: Solve arithmetic problems against time
-   - Number Puzzles: Mathematical challenges
-
-4. **Reaction Games**
-   - Reaction Test: Test your reflexes
-   - Snake Game: Classic snake game with speed challenges
 
 ## 🔧 Development Notes
 
