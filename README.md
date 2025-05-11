@@ -2,8 +2,6 @@
 
 A fully functional, interactive, and engaging brain game website designed to challenge and enhance users' cognitive abilities across various mental domains.
 
-![Brain Game Preview](https://github.com/risterz/brain-game/raw/index/Screenshot%202025-05-07%20021549.png)
-
 ## 🎮 Features
 
 - **Multiple Brain Games**: Challenge yourself with various cognitive exercises
@@ -12,6 +10,105 @@ A fully functional, interactive, and engaging brain game website designed to cha
 - **Responsive Design**: Play on any device seamlessly
 - **Leaderboards**: Compare your scores with other players
 - **Dark Mode Support**: Easy on the eyes for extended play sessions
+
+## 📸 Screenshots
+
+### Dashboard
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│ Dashboard                                            Fix Score Data  ▷ Play Games  │
+│ Welcome back, Player!                                              │
+│                                                                     │
+│ ├─ Overview  ├─ Progress  ├─ Achievements                          │
+│                                                                     │
+│ ┌───────────┐ ┌───────────┐ ┌───────────┐ ┌───────────┐            │
+│ │           │ │           │ │           │ │           │            │
+│ │    12     │ │  3,450    │ │    85%    │ │   2h 15m  │            │
+│ │Games Played│ │Total Score │ │Average Acc.│ │Time Trained│            │
+│ └───────────┘ └───────────┘ └───────────┘ └───────────┘            │
+│                                                                     │
+│ ┌─────────────────────────────────────────────────────────────┐    │
+│ │ Level Progress                                   Level 4     │    │
+│ │ 450 / 1000 XP                                      45%       │    │
+│ │ [████████████████████--------------------------]             │    │
+│ └─────────────────────────────────────────────────────────────┘    │
+│                                                                     │
+│ Recent Games                                                        │
+│ ┌─────────────────────────────────────────────────────────────┐    │
+│ │ Game           Date         Score        Level               │    │
+│ │ Pattern Recog. 2025-05-10   820          Medium              │    │
+│ │ Quick Math     2025-05-09   650          Easy                │    │
+│ │ Memory Match   2025-05-07   785          Hard                │    │
+│ │ Reaction Test  2025-05-05   340          Easy                │    │
+│ └─────────────────────────────────────────────────────────────┘    │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Pattern Recognition Game
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│ Pattern Recognition                                 Level: Medium   Score: 240 │
+│                                                                     │
+│ What comes next in this pattern?                                    │
+│                                                                     │
+│ ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                │
+│ │ △ │ │ ○ │ │ △ │ │ △ │ │ ○ │ │ ? │                                │
+│ └───┘ └───┘ └───┘ └───┘ └───┘ └───┘                                │
+│                                                                     │
+│ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐                    │
+│ │    △    │ │    ○    │ │    □    │ │    ✕    │                    │
+│ └─────────┘ └─────────┘ └─────────┘ └─────────┘                    │
+│                                                                     │
+│ Time remaining: 00:15                                               │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Memory Match Game
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│ Memory Match                                      Level: Easy    Score: 180 │
+│                                                  Pairs found: 4/8       │
+│ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                               │
+│ │ ? │ │ ? │ │ ? │ │ ? │                                               │
+│ └───┘ └───┘ └───┘ └───┘                                               │
+│                                                                     │
+│ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                               │
+│ │ 🍎 │ │ ? │ │ 🍎 │ │ ? │                                               │
+│ └───┘ └───┘ └───┘ └───┘                                               │
+│                                                                     │
+│ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                               │
+│ │ ? │ │ 🍐 │ │ ? │ │ 🍐 │                                               │
+│ └───┘ └───┘ └───┘ └───┘                                               │
+│                                                                     │
+│ ┌───┐ ┌───┐ ┌───┐ ┌───┐                                               │
+│ │ 🍒 │ │ 🍌 │ │ 🍒 │ │ 🍌 │                                               │
+│ └───┘ └───┘ └───┘ └───┘                                               │
+│                                                                     │
+│ Moves: 12     Time: 01:45                                           │
+└─────────────────────────────────────────────────────────────────────────┘
+```
+
+### Quick Math Game
+
+```
+┌─────────────────────────────────────────────────────────────────────────┐
+│ Quick Math                                     Level: Medium   Score: 420 │
+│                                                                     │
+│ Solve the equation:                                                 │
+│                                                                     │
+│                 (36 ÷ 4) × 3 + 15 = ?                              │
+│                                                                     │
+│ ┌─────────┐ ┌─────────┐ ┌─────────┐ ┌─────────┐                    │
+│ │    38   │ │    39   │ │    42   │ │    45   │                    │
+│ └─────────┘ └─────────┘ └─────────┘ └─────────┘                    │
+│                                                                     │
+│ Correct: 14     Wrong: 2                                            │
+│ Time remaining: 00:23                                               │
+└─────────────────────────────────────────────────────────────────────────┘
+```
 
 ## 🚀 Live Demo
 
@@ -95,13 +192,13 @@ The application uses Supabase (PostgreSQL) with the following main tables:
 
 ### Known Issues
 
-- Dashboard may sometimes not display game progress correctly due to errors when accessing the Supabase database
+- Dashboard may sometimes not show game progress correctly due to errors when accessing the Supabase database
 - Empty error objects when querying scores
 - The dashboard has been modified to include:
   - Direct database querying instead of using helper functions
-  - Better error handling with detailed logging
-  - Fallback mechanisms for simpler queries when main queries fail
-  - Display of available score data even when errors occur
+  - Better error handling with detailed logging of error information
+  - Fallback mechanisms to try simpler queries when main queries fail
+  - Displaying any available score data even when errors occur
 
 ### Utility Functions
 
