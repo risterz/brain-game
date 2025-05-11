@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Game - Visual Documentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #6d28d9;
+            border-bottom: 2px solid #e5e7eb;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #7c3aed;
+            margin-top: 40px;
+        }
+        .screenshot-container {
+            margin: 30px 0;
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .screenshot-image {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .screenshot-description {
+            padding: 15px;
+            background-color: #f9fafb;
+            border-top: 1px solid #e5e7eb;
+        }
+        .home-page-demo {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 30px 0;
+        }
+        .hero-section {
+            text-align: center;
+            padding: 40px 20px;
+            background-color: #f3f4f6;
+            border-radius: 8px;
+        }
+        .hero-title {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+            color: #1f2937;
+        }
+        .hero-subtitle {
+            font-size: 1.25rem;
+            color: #4b5563;
+            max-width: 800px;
+            margin: 0 auto 25px auto;
+        }
+        .button {
+            display: inline-block;
+            background-color: #6d28d9;
+            color: white;
+            padding: 12px 24px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            margin: 0 10px;
+        }
+        .button.secondary {
+            background-color: #e5e7eb;
+            color: #1f2937;
+        }
+        .games-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+        .game-card {
+            border: 1px solid #e5e7eb;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .game-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+        .game-icon {
+            font-size: 2.5rem;
+            margin: 20px 0 10px 0;
+        }
+        .game-content {
+            padding: 15px;
+        }
+        .game-title {
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin: 0 0 10px 0;
+        }
+        .game-memory {
+            background-color: #f0f9ff;
+        }
+        .game-pattern {
+            background-color: #faf5ff; 
+        }
+        .pattern-game-demo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 30px;
+            background-color: #faf5ff;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        .pattern-sequence {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .pattern-item {
+            width: 60px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            border: 2px solid #a78bfa;
+            border-radius: 8px;
+        }
+        .pattern-question {
+            background-color: #e5e7eb;
+            color: #4b5563;
+        }
+        .memory-game-demo {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            max-width: 500px;
+            margin: 30px auto;
+        }
+        .memory-card {
+            aspect-ratio: 1;
+            background-color: #c4b5fd;
+            border-radius: 8px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            color: transparent;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        .memory-card.flipped {
+            background-color: white;
+            color: #1f2937;
+            border: 2px solid #a78bfa;
+        }
+    </style>
+</head>
+<body>
+    <h1>Brain Game - Visual Documentation</h1>
+    <p>This page provides visual documentation of the Brain Game application, showing the key interfaces and components.</p>
+
+    <h2>Home Page</h2>
+    <div class="screenshot-container">
+        <div class="home-page-demo">
+            <div class="hero-section">
+                <h1 class="hero-title">Train Your Brain, <span style="color: #6d28d9;">Enhance Your Mind</span></h1>
+                <p class="hero-subtitle">Engage in fun, science-backed games designed to challenge and improve your cognitive abilities.</p>
+                <div>
+                    <a href="#" class="button">Start Playing</a>
+                    <a href="#" class="button secondary">Create Account</a>
+                </div>
+            </div>
+        </div>
+        <div class="screenshot-description">
+            <p>The engaging home page welcomes users with a clear value proposition and call-to-action buttons. The design emphasizes the cognitive enhancement aspects of the games while maintaining a fun, approachable feel.</p>
+        </div>
+    </div>
+
+    <h2>Games Collection Page</h2>
+    <div class="screenshot-container">
+        <div class="games-grid">
+            <div class="game-card game-memory">
+                <div class="game-content">
+                    <div class="game-icon">🧠</div>
+                    <h3 class="game-title">Memory Match</h3>
+                    <p>Test and improve your memory by matching pairs of cards</p>
+                    <div style="display: flex; justify-content: space-between; margin-top: 15px;">
+                        <span style="background: white; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem;">Memory</span>
+                        <span style="background: white; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem;">Easy to Hard</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-content">
+                    <div class="game-icon">🔢</div>
+                    <h3 class="game-title">Quick Math</h3>
+                    <p>Solve arithmetic problems against time to boost calculation speed</p>
+                    <div style="display: flex; justify-content: space-between; margin-top: 15px;">
+                        <span style="background: white; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem;">Math</span>
+                        <span style="background: white; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem;">Adaptive</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card game-pattern">
+                <div class="game-content">
+                    <div class="game-icon">📊</div>
+                    <h3 class="game-title">Pattern Recognition</h3>
+                    <p>Identify patterns and sequences to enhance logical thinking</p>
+                    <div style="display: flex; justify-content: space-between; margin-top: 15px;">
+                        <span style="background: white; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem;">Logic</span>
+                        <span style="background: white; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem;">Medium</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="game-card">
+                <div class="game-content">
+                    <div class="game-icon">⚡</div>
+                    <h3 class="game-title">Reaction Test</h3>
+                    <p>Measure and improve your reaction time</p>
+                    <div style="display: flex; justify-content: space-between; margin-top: 15px;">
+                        <span style="background: white; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem;">Reaction</span>
+                        <span style="background: white; padding: 5px 10px; border-radius: 15px; font-size: 0.8rem;">Easy</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="screenshot-description">
+            <p>The Games Collection page showcases all available brain games with category and difficulty filters. Each game card includes a description, category, and difficulty level to help users choose games that target their specific cognitive needs.</p>
+        </div>
+    </div>
+
+    <h2>Memory Match Game</h2>
+    <div class="screenshot-container">
+        <div class="memory-game-demo">
+            <div class="memory-card"></div>
+            <div class="memory-card"></div>
+            <div class="memory-card"></div>
+            <div class="memory-card"></div>
+            <div class="memory-card"></div>
+            <div class="memory-card flipped">🍎</div>
+            <div class="memory-card"></div>
+            <div class="memory-card flipped">🍎</div>
+            <div class="memory-card"></div>
+            <div class="memory-card flipped">🍐</div>
+            <div class="memory-card"></div>
+            <div class="memory-card flipped">🍐</div>
+            <div class="memory-card flipped">🍒</div>
+            <div class="memory-card flipped">🍌</div>
+            <div class="memory-card flipped">🍒</div>
+            <div class="memory-card flipped">🍌</div>
+        </div>
+        <div class="screenshot-description">
+            <p>The Memory Match Game challenges users to find matching pairs of cards. The game offers multiple difficulty levels (Easy: 4×4 grid with 8 pairs, Medium: 6×4 grid with 12 pairs, Hard: 6×6 grid with 18 pairs). Performance is measured by time taken and number of moves.</p>
+        </div>
+    </div>
+
+    <h2>Pattern Recognition Game</h2>
+    <div class="screenshot-container">
+        <div class="pattern-game-demo">
+            <h3>What comes next in this sequence?</h3>
+            <div class="pattern-sequence">
+                <div class="pattern-item">2</div>
+                <div class="pattern-item">7</div>
+                <div class="pattern-item">12</div>
+                <div class="pattern-item">17</div>
+                <div class="pattern-item">22</div>
+                <div class="pattern-item pattern-question">?</div>
+            </div>
+            <div style="display: flex; gap: 15px;">
+                <div style="padding: 10px 20px; background: #e0e7ff; border-radius: 8px; cursor: pointer;">17</div>
+                <div style="padding: 10px 20px; background: #e0e7ff; border-radius: 8px; cursor: pointer;">22</div>
+                <div style="padding: 10px 20px; background: #e0e7ff; border-radius: 8px; cursor: pointer;">27</div>
+                <div style="padding: 10px 20px; background: #e0e7ff; border-radius: 8px; cursor: pointer;">32</div>
+            </div>
+        </div>
+        <div class="screenshot-description">
+            <p>The Pattern Recognition Game tests and improves logical thinking by challenging users to identify patterns in sequences. Players must select the next item in various types of patterns, with increasing difficulty levels adding complexity to the patterns.</p>
+        </div>
+    </div>
+
+    <script>
+        // Simple interaction for the memory cards
+        const memoryCards = document.querySelectorAll('.memory-card:not(.flipped)');
+        memoryCards.forEach(card => {
+            card.addEventListener('click', () => {
+                card.classList.add('flipped');
+                
+                // Add a random emoji
+                const emojis = ['🍎', '🍐', '🍋', '🍌', '🍉', '🍇', '🍓', '🍒'];
+                card.textContent = emojis[Math.floor(Math.random() * emojis.length)];
+                
+                // Reset after 1 second
+                setTimeout(() => {
+                    card.classList.remove('flipped');
+                    card.textContent = '';
+                }, 1000);
+            });
+        });
+    </script>
+</body>
+</html>
