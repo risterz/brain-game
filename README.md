@@ -11,23 +11,15 @@ A fully functional, interactive, and engaging brain game website designed to cha
 - **Leaderboards**: Compare your scores with other players
 - **Dark Mode Support**: Easy on the eyes for extended play sessions
 
-## 📸 Screenshots
+## 📸 Visual Documentation
 
-### Home Page
-![Home Page](https://github.com/risterz/brain-game/assets/130717663/home-page-screenshot)
-*The engaging home page welcomes users with featured games and benefits of brain training.*
+Check out our [interactive visual documentation](https://htmlpreview.github.io/?https://github.com/risterz/brain-game/blob/index/docs/screenshots.html) to see the user interface and gameplay of Brain Game!
 
-### Games Page
-![Games Page](https://github.com/risterz/brain-game/assets/130717663/games-page-screenshot)
-*Browse our collection of brain-training games designed to target different cognitive skills.*
-
-### Memory Match Game
-![Memory Match Game](https://github.com/risterz/brain-game/assets/130717663/memory-match-screenshot) 
-*Test and improve your memory by matching pairs of cards with multiple difficulty levels.*
-
-### Pattern Recognition Game
-![Pattern Recognition Game](https://github.com/risterz/brain-game/assets/130717663/pattern-recognition-screenshot)
-*Identify patterns and sequences to enhance your logical thinking skills.*
+This HTML documentation page includes interactive examples of:
+- Home Page layout
+- Games collection browser
+- Memory Match Game
+- Pattern Recognition Game
 
 ## 🧩 Game Types
 
